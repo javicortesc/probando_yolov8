@@ -1,0 +1,13 @@
+train: C:\Users\t_jcortesc\OneDrive - SAAM Ports\Documents\GitHub\probando_yolov8\datasets\images\train
+val: C:\Users\t_jcortesc\OneDrive - SAAM Ports\Documents\GitHub\probando_yolov8\datasets\images\val
+test: C:\Users\t_jcortesc\OneDrive - SAAM Ports\Documents\GitHub\probando_yolov8\datasets\images\test
+
+nc: 5
+names: ['boots', 'gloves', 'helmet', 'human', 'vest']
+
+roboflow:
+  workspace: hx-hezqh
+  project: ppe-detection-yfmym
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hx-hezqh/ppe-detection-yfmym/dataset/1
